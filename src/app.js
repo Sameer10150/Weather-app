@@ -18,6 +18,7 @@ hbs.registerPartials(partials_path);
 app.use(express.static(static_path));
 
 
+
 //Routing
 
 app.listen(port , () => {
